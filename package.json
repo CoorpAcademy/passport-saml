@@ -30,18 +30,18 @@
   },
   "main": "./lib/passport-saml",
   "dependencies": {
-    "passport": "0.2.x",
-    "q" : "1.0.x", 
+    "passport": "~0.3.2",
+    "q" : "~1.4.1", 
     "xml2js": "0.4.x",
-    "xml-crypto": "0.1.x",
+    "xml-crypto": "~0.8.4",
     "xmldom": "0.1.x",
-    "xmlbuilder": "~2.2",
-    "xml-encryption": "~0.7"
+    "xmlbuilder": "~8.2.2",
+    "xml-encryption": "~0.9.0"
   },
   "devDependencies": {
-    "body-parser": "1.2.x",
-    "ejs": "0.7.x",
-    "express": "3.x",
+    "body-parser": "~1.15.2",
+    "ejs": "~2.5.2",
+    "express": "^4.14.0",
     "jshint": "*",
     "mocha": "*",
     "request": "*",
